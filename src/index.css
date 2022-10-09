@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700;900&family=Pacifico&display=swap');
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  font-family: 'Nunito', sans-serif;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  background-color: #000101;
+  color: whitesmoke;
+  overflow-x: none;
+}
+
+* {
+  box-sizing: border-box;
+}

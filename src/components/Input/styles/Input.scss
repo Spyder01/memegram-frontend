@@ -1,0 +1,25 @@
+textarea, input, select, .inp {
+
+    border-radius: 2px;
+    height: 45px;
+    width: 250px;
+    text-align: center;
+    border-color: transparent;
+    border-width: 0.01px;
+    color: whitesmoke;
+    outline: none;
+    background-color: #111 !important;
+}
+
+textarea:focus, input:focus, select:focus, .inp:focus {
+    outline: none;
+}
+
+textarea:placeholder, input::placeholder, select::placeholder, .inp::placeholder {
+    text-align: center;
+}
+
+textarea {
+    height: 100px !important; 
+}
+

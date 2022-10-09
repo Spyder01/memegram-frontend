@@ -1,0 +1,54 @@
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    h1 {
+        font-family: 'Pacifico', cursive;
+        margin-bottom: 35px;
+        font-size: 2.75rem;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 180px;
+
+        .caption {
+            font-size: 0.8rem;
+            font-weight: bolder;
+            color: red;
+            padding: 5px;
+            width: 75vw;
+            text-align: center;
+        }
+
+        .btn-sign-up {
+            margin-top: 20px;
+            width: 312px;
+            color: #fff;
+            background-color: #0072bb;
+            border: none;
+        }
+
+        .links {
+            font-size: 0.8rem;
+            .link {
+                text-decoration: underline;
+                color: #0072bb;
+                cursor: pointer;
+                &:hover {
+                    transform: scale(1.1);
+                }
+                &:active {
+                    transform: scale(0.9);
+                }
+                
+            }
+        }
+    }
+}
