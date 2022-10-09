@@ -1,5 +1,5 @@
 import type {FC} from 'react';
-import Alert from "reactjs-alert";
+//import Alert from "reactjs-alert";
 
 interface AlertProps {
     message: string;
@@ -11,6 +11,6 @@ interface AlertProps {
 
 const AlertC:FC<AlertProps> = ({message, type, open, setStatus})=>{
     return (
-        <Alert status={open} type={type} onClose={()=>setStatus(false)} title={message}/>
+        <></>
     )
 }
